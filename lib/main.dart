@@ -17,8 +17,7 @@ class _MyAppState extends State<MyApp> {
   final number_controller = TextEditingController();
   String? valuechoose_one;
   String? valuechoose_two;
-  int my_num = 40;
-  String? result;
+  String? result = '0';
   List listItem = ['Binary', 'Decimal', 'Octal', 'HexaDecimal'];
 
   @override
